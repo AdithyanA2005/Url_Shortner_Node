@@ -1,0 +1,6 @@
+extends partials/base
+
+block body
+  h4= message
+  h5= error.status
+  pre #{error.stack}

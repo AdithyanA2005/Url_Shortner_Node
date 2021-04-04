@@ -1,0 +1,52 @@
+header nav {
+  background-color: #89aabd;
+}
+header nav .brand-logo {
+  font-weight: 600;
+  font-size: 2.5rem;
+  font-color: white;
+}
+
+#form_area .form_body {
+  border-width: 0.3rem;
+  border-style: solid;
+  border-color: #49c5b6;
+  border-radius: 20px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#url_table_area .url_table_body {
+  border-width: 0.3rem;
+  border-style: solid;
+  border-color: #49c5b6;
+  border-radius: 20px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 4.5rem;
+}
+#url_table_area thead th {
+  color: #89aabd;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+#url_table_area tbody td a {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #49c5b6;
+}
+
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  color: white;
+  background: #89aabd;
+}
+
+/*# sourceMappingURL=style.css.map */

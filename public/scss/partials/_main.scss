@@ -1,0 +1,40 @@
+@mixin add_body_border {
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: $green;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#form_area {
+    .form_body {
+        @include add_body_border;
+    }
+}
+
+#url_table_area {
+    .url_table_body {
+        @include add_body_border;
+        padding-top: 1.5rem;
+        padding-bottom: 4.5rem;
+    }
+    thead {
+        th {
+            color: $blue;
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+    }
+    tbody {
+        td {
+            a {
+                font-weight: 500;
+                font-size: 1.2rem;
+                color: $green;
+            }
+        }
+    }
+}
