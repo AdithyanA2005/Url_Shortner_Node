@@ -1,0 +1,22 @@
+{
+    "name": "url-shortner-node",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "nodemon ./bin/www",
+        "sass": "sass --watch ./public/scss/style.scss ./public/stylesheets/style.css"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "express": "^4.16.4",
+        "http-errors": "~1.6.3",
+        "mongoose": "^5.12.3",
+        "morgan": "~1.9.1",
+        "pug": "2.0.0-beta11"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7",
+        "sass": "^1.32.8"
+    }
+}
