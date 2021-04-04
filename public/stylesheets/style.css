@@ -40,6 +40,15 @@ header nav .brand-logo {
   font-size: 1.2rem;
   color: #49c5b6;
 }
+#url_table_area tbody td i {
+  color: #89aabd !important;
+  transition: 0.5s ease;
+}
+#url_table_area tbody td i:hover {
+  color: #49c5b6 !important;
+  transition: 0.5s ease;
+  font-size: 2rem !important;
+}
 
 footer {
   padding-top: 2rem;

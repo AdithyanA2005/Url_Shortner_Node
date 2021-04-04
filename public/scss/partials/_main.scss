@@ -26,6 +26,7 @@
             color: $blue;
             font-weight: 600;
             font-size: 1.5rem;
+
         }
     }
     tbody {
@@ -34,6 +35,16 @@
                 font-weight: 500;
                 font-size: 1.2rem;
                 color: $green;
+            }
+            i {
+                color: $blue !important;
+                transition: 0.5s ease;
+        
+                &:hover {
+                    color: $green !important;
+                    transition: 0.5s ease;
+                    font-size: 2rem !important;
+                }           
             }
         }
     }

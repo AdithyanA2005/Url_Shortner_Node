@@ -6,77 +6,12 @@ section#url_table_area.container.section
                     th Orginal URL
                     th AURLS URL
                     th Visits
+                    th Del
             tbody
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
+                each aurl in aurls_urls
+                    tr
+                        td #[a(href=aurl.full_url) #{aurl.full_url} ]
+                        td #[a(href=aurl.short_url) #{aurl.short_url} ]
+                        td #[a(href=aurl.short_url) #{aurl.clicks} ]
+                        td #[a(href="/delete/" + aurl.short_url) #[i.material-icons delete]]
 
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
-                tr
-                    td #[a(href="url#") https://youtube.com]
-                    td #[a(href="short url#") https://tiny/bv]
-                    td #[a(href="ahi") 10]
