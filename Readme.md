@@ -6,24 +6,24 @@
 #### HOW TO USE
 
 > Clone the repository
-``` bash
-git clone https://github.com/AdithyanA2005/Url_Shortner_Node.git
-```
+> ``` bash
+> git clone https://github.com/AdithyanA2005/Url_Shortner_Node.git
+> ```
 
 > Install Dependencies
-``` bash
-npm install
-```
+> ``` bash
+> npm install
+> ```
 
 > Start The server
-``` bash
-npm start
-```
+> ``` bash
+> npm start
+> ```
 
 ---
 
-```
-In the Browser Url 
-
-TYPE: localhost:3000 or 127.0.0.1:3000
-```
+> ```
+> In the Browser Url 
+> 
+> TYPE: localhost:3000 or 127.0.0.1:3000
+> ```
